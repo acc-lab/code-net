@@ -3,7 +3,7 @@ var textbox = document.getElementById("textbox");
 var row_text = document.getElementById("row-text");
 
 function update(){
-	row_text_inner = "";
+	let row_text_inner = "";
 	
 	first_line = Math.round(textbox.scrollTop/15)
 	
@@ -12,6 +12,8 @@ function update(){
 	}
 	
 	row_text.innerHTML=row_text_inner;
+	
+	return row_text.innerHTML;
 }
 
 setInterval(update, 1);
