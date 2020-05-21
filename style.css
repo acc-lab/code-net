@@ -1,0 +1,52 @@
+body{
+	background-color: #24292E;
+}
+
+#textbox-container{
+	border: 0.5px white solid;
+	width: 500px;
+	height: 300px;
+	
+	left: 50%;
+	position: relative;
+	transform: translate(-248px, 2px);
+}
+
+#textbox{
+	width: 475px;
+	height: 292px;
+
+	resize: none;
+	left: 50%;
+	position: relative;
+	transform: translate(-228px, 2px);
+	
+	overflow: hidden;
+	
+	
+	background-color: #24292E;
+	
+	color: white;
+	
+	font-family: 'Source Code Pro', monospace;
+	
+	outline: none;
+	
+	font-size: 12px;
+	
+	overflow: hidden;
+}
+
+p{
+	width: 0px;
+	height: 0px;
+	margin: 0px; 
+	
+	transform: translate(3px, 2px);
+	
+	font-family: 'Source Code Pro', monospace;
+	
+	font-size: 12px;
+	
+	color: lightgrey;
+}
